@@ -1,0 +1,23 @@
+
+nav {
+    background-color: rgb(202, 208, 206);
+    padding: 0px;
+}
+nav ul * {
+    padding: 8px;
+    text-align: left;
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+@media (max-width: 500px) {
+    nav {
+        display: none;
+    }
+}
+
+
+
